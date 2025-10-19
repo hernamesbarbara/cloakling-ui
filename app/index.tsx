@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 
-import Sample from './Sample.tsx';
+import Layout from './Layout.tsx';
 
 const root = document.getElementById('root');
 
@@ -8,4 +8,4 @@ if (!root) {
   throw new Error('Could not find root element');
 }
 
-createRoot(root).render(<Sample />);
+createRoot(root).render(<Layout />);
